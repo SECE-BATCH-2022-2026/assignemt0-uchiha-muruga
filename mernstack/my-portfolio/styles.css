@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #c8d8e4;
+}
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-image: url("assets/top-background.webp") !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+     /* background-color: #c8d8e4; */
+    /* border: 1px solid red; */
+}
+.top_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_right .name{
+    font-size: xx-large;
+    display: flex;
+}
+.domain{
+    display: flex;
+}
+.top_left img{
+    border-radius: 70px;
+    transform: translateY(50%);
+}
+.container .bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #f0f1f6; 
+}
+.rightside{
+    padding: 30px;
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.leftside{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border-right: 1px solid silver; */
+    /* border: 1px solid red; */
+}
+.contact-me a{
+    text-decoration: none;
+}
+.contact-me , .education , .languages , .competitive-programming, .skills , .speaking-languages, .courses , .projects , .goals{
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid silver;
+}
+
+.languages{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size:medium;
+}
+.languages-list , .cp-list , .skills-list , .courses-list , .projects-list , .goals-list{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.projects-list ul li{
+    padding: 10px;
+}
